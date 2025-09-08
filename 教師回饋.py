@@ -9,7 +9,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support import expected_conditions as EC
 
 account = "113101032"
-passwd = "Shiromine941207"
+passwd = ""
 
 service = Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=service)
